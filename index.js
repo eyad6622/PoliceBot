@@ -8,7 +8,7 @@ import {
 } from 'discord.js';
 import { google } from 'googleapis';
 
-const DISCORD_TOKEN = 'MTM3OTYxNDYwOTU1MTM5NjkyNg.G_xZrr.CSMwMFCGtiUCX2gMDlSulLLVliNgUGnvbhdQKY'; // <-- حط التوكن هنا
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const SPREADSHEET_ID = '14b6MbVuWiwczTOqd2pnPk1W6lJ3WtYTurmFlnumQarA';
 const SHEET_NAME = ' LSPD';
 const KEYFILEPATH = './discordbotservice-462507-8b3cd7b7b787.json';
