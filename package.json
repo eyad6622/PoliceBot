@@ -1,0 +1,11 @@
+{
+  "name": "discord-google-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^150.0.1"
+  }
+}
